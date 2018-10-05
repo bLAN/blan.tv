@@ -125,19 +125,16 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+@media (max-height: 620px) {
 
-@media (max-width: 620px) {
-
-    h1,
-    nav {
+    h1 {
         display: none;
     }
 }
 
-@media (max-height: 620px) {
 
-    h1,
-    nav {
+@media (max-height: 500px) {
+     nav {
         display: none;
     }
 }
